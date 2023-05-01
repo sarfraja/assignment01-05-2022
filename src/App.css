@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, rgba(81,74,203,1) 35%, rgba(110,46,203,1) 100%);
+    background: linear-gradient(356deg, rgba(255,255,240,1) 45%, rgba(81,74,203,1) 47%, rgba(110,46,203,1) 100%);
 }
 .userswraper {
   width: 40%;
@@ -27,7 +27,14 @@ body{
   -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
   -o-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
   -ms-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+      box-shadow: 6px 5px 18px -2px;
+    border-radius: 4%;
 }
+.userswraper::-webkit-scrollbar {
+    width: 2px;
+}
+
+
 .userimglist{
   height: 60px;
   width: 60px;
@@ -181,11 +188,11 @@ body {
 .plabel{
   font-weight: 500;
   color:#4a4a4a;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .ptext{
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .profilepage{
   padding:1.2em;
